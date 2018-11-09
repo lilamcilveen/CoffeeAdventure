@@ -2,7 +2,7 @@
 
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
-  
+  Cooperation of: Iqra McIlveen, Pryata Humayun, Tatiana Martinez
   Grade recieved: 103% 
     + Bonus: added functionality of save-game.
   
