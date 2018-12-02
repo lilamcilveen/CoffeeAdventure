@@ -66,8 +66,8 @@
       - players in room (comma separated)
       - ...
       
-  For example, if there are 4 rooms in the world (2x2 grid) then the file might look like (# denotes
-  a comment and will not be part of the actual file; Professor Hinek has included it for clarity of the project)
+  For example, if there are 4 rooms in the world (2x2 grid) then the file might look like this. 
+  Professor Hinek has included this example for clarity of the project. Our file is 'input.txt'.
   
         4                           # 4 rooms in total
         1                           # room 1
