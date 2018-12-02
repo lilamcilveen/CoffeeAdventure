@@ -38,13 +38,13 @@ COMP1406 Assignment #4/5 Specifications
     - A basic room has 1-4 adjacent rooms.
     
   Player: 
-    - Each players should has a specific role in the game. 
+    - Each player has a specific role in the game. 
     - There are several players in the game including a human players and at least 3 AI, with different behaviours.
     - For the human player, North, South, East, and West are used to denote directions.
     
   Thing: 
-    - There are several things in the game. Examples are coffee, posion, homework, material, keys, locked boxes, etc. 
-    - Each have a different behaviour upon interaction.
+    - There are several things in the game. Examples are coffee, posion, homework, energy drink, etc. 
+    - Each has a different behaviour upon interaction.
     
 3. FILE FORMAT
   The file format for the world will be as follows:
