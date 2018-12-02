@@ -11,7 +11,7 @@ A project for Introduction to Computer Science II. - Fall 2017 [1406]
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
   
-COMP1405 Assignment #4/5 Specifications
+COMP1406 Assignment #4/5 Specifications
 1. THE GAME
   A (human) player will enter the game world (that already
   contains other players and things). The goal of the game is for the (human) player to retrieve
