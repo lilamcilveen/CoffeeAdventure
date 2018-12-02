@@ -116,28 +116,28 @@ Assignment 4/5 [40 marks]
 
 All games must accept the input "h" to ask for help. This should let the user know which commands that they can enter to play the game.
 
-Team
-__/10 : human player can navigate the world (look around, pick things up, etc)
-__/5 : UML diagram or PDF drawing of all classes in submission
-__/5 : class design (abstract/concrete/interface) 
-__/2 : file i/o (read world initial state to begin game)
-__/3 : game play (user friendly, easy to follow, etc)
+    Team
+    __/10 : human player can navigate the world (look around, pick things up, etc)
+    __/5 : UML diagram or PDF drawing of all classes in submission
+    __/5 : class design (abstract/concrete/interface) 
+    __/2 : file i/o (read world initial state to begin game)
+    __/3 : game play (user friendly, easy to follow, etc)
 
 
-Individual
-__/10 : Player class P1 - player does something non-trivial/unique
-__/10 : Player class P2 - player does something non-trivial/unique
-__/10 : Player class P3 - player does something non-trivial/unique
-__/10 : Player class P4 - player does something non-trivial/unique
+    Individual
+    __/10 : Player class P1 - player does something non-trivial/unique
+    __/10 : Player class P2 - player does something non-trivial/unique
+    __/10 : Player class P3 - player does something non-trivial/unique
+    __/10 : Player class P4 - player does something non-trivial/unique
 
-__/5 : Thing class T1 - thing does something non-trivial/unique
-__/5 : Thing class T2 - thing does something non-trivial/unique
-__/5 : Thing class T3 - thing does something non-trivial/unique
-__/5 : Thing class T4 - thing does something non-trivial/unique
+    __/5 : Thing class T1 - thing does something non-trivial/unique
+    __/5 : Thing class T2 - thing does something non-trivial/unique
+    __/5 : Thing class T3 - thing does something non-trivial/unique
+    __/5 : Thing class T4 - thing does something non-trivial/unique
 
-Extras (individual)
-__/ : file i/o (save game to be continued later)
-__/ : other1
-__/ : other2
-__/ : other3
-__/ : other4
+    Extras (individual)
+    __/ : file i/o (save game to be continued later)
+    __/ : other1
+    __/ : other2
+    __/ : other3
+    __/ : other4
