@@ -60,6 +60,7 @@ COMP1406 Assignment #4/5 Specifications
       rooms adjacent to room (comma separated)
       players in room (comma separated)
       ...
+      
   For example, if there are 4 rooms in the world (2x2 grid) then the file might look like (# denotes
   a comment and will not be part of the actual file; I have included it for clarity of the file)
   
