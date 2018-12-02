@@ -114,7 +114,8 @@ This rubric assumes that you have 4 team members. Things ending with a number co
 Assignment 4/5 [40 marks]
 -------------------------
 
-All games must accept the input "h" to ask for help. This should let the user know which commands that they can enter to play the game.
+    All games must accept the input "h" to ask for help. This should let the user know which commands that they can enter to 
+    play the game.
 
     Team
     __/10 : human player can navigate the world (look around, pick things up, etc)
