@@ -24,27 +24,27 @@
   
   World: 
   
-    - The world class reads the game world from a file. 
-    - It keeps track of the entrance to the world so that the human player can enter it.
+    - The World class reads the game World from a file. 
+    - It keeps track of the entrance to the Wrld so that the human Player can enter it.
     - It can save a game in progress. That is, save the state of the game so that it can be loaded later
       and continued (from the same point in the game). 
-    - Holds the collection of rooms using a linked-list structure.
+    - Holds the collection of Rooms using a linked-list structure.
     
   Room: 
   
-    - A room is where everything happens. 
-    - Contains players, things and doors to other rooms. 
-    - Any player (AI or human) can take things from a room and leave things in a room. 
-    - Doorways between rooms can be simple doors, be locked or one-way (you can go from room A to B, but not from B to A). 
-    - A basic room has 1-4 adjacent rooms.
+    - A Room is where everything happens. 
+    - Contains Players, Things and doors to other Rooms. 
+    - Any Player (AI or human) can take things from a Room and leave things in a Room. 
+    - Doorways between Rooms can be simple doors, be locked or one-way (you can go from room A to B, but not from B to A). 
+    - A basic Room has 1-4 adjacent Rooms.
     
   Player: 
   
-    - Each player has a specific role in the game. 
-    - There are several players in the game: 
-      - Including a human player; 
+    - Each Player has a specific role in the game. 
+    - There are several Players in the game: 
+      - Including a human Player; 
       - and at least 3 AI, with different behaviours.
-    - For the human player, North, South, East, and West are used to denote directions.
+    - For the human Player, North, South, East, and West are used to denote directions.
     
   Thing: 
   
