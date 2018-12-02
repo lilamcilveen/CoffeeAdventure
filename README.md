@@ -25,7 +25,7 @@
   World: 
   
     - The World class reads the game World from a file. 
-    - It keeps track of the entrance to the Wrld so that the human Player can enter it.
+    - It keeps track of the entrance to the World so that the human Player can enter it.
     - It can save a game in progress. That is, save the state of the game so that it can be loaded later
       and continued (from the same point in the game). 
     - Holds the collection of Rooms using a linked-list structure.
