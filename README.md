@@ -7,21 +7,20 @@
   
   Grade recieved: 103% 
     + Bonus: added functionality of save-game.
-  
-  + Bonus for you: Aesthetic ascii fireworks at the end
+    + Bonus for you: Aesthetic ascii fireworks at the end
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
   
 COMP1406 Assignment #4/5 Specifications
 1. THE GAME
-  A (human) player will enter the game world (that already
-  contains other players and things). The goal of the game is for the (human) player to retrieve
-  something from the game world and exit with it (it might be another player or a thing).
-  The game world will be read from a le that species each room in the world. Each room will
-  have a list of contents (things), players, and exits (doors to other rooms).
+- A (human) player will enters the game world (already containing other players and things). 
+- The goal of the game is for the (human) player to retrieve something from the game world and exit with it (be it another    
+  Player or Thing).
+- The game world is read from a file that specifies each room in the world. 
+- Each room lists contents such as Things, Players, and exits (doors to other rooms).
 
 2. DETAILS
-  Your game has the following classes forming the skeleton: World, Room, Player and Thing.
+- The game has the following classes forming the base of it: World, Room, Player and Thing.
   
   World: 
   
