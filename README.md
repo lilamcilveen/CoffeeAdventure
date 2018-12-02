@@ -41,7 +41,9 @@
   Player: 
   
     - Each player has a specific role in the game. 
-    - There are several players in the game including a human players and at least 3 AI, with different behaviours.
+    - There are several players in the game: 
+      - Including a human player; 
+      - and at least 3 AI, with different behaviours.
     - For the human player, North, South, East, and West are used to denote directions.
     
   Thing: 
