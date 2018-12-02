@@ -21,30 +21,30 @@ COMP1406 Assignment #4/5 Specifications
   have a list of contents (things), players, and exits (doors to other rooms).
 
 2. DETAILS
-  Your game must have the following classes: World, Room, Player and Thing.
+  Your game must has the following classes: World, Room, Player and Thing.
+  
   World: 
-    Your world class will need to read the game world from a le. It will need to keep track
-    of the entrance to the world so that the human player can enter it. Your world class should also be
-    able to save a game in progress. That is, save the state of the game so that it can be loaded later
-    and continued (from the same point in the game). Your world will need to hold your collection of
-    rooms in some way. (You can use either an array or a linked-structure.)
+    - The world class reads the game world from a file. 
+    - It keeps track of the entrance to the world so that the human player can enter it.
+    - It can save a game in progress. That is, save the state of the game so that it can be loaded later
+      and continued (from the same point in the game). 
+    - Holds the collection of rooms using a linked-list structure.
+    
   Room: 
-    A room is where everything happens. A room contains players, things and doors to other
-    rooms. A player should be able to take things from a room and leave things in a room. Doorways
-    between rooms can be simple doors (that can always be opened), be locked (requiring a key to
-    be found rst) or one-way (you can go from room A to B, but not from B to A). A basic room
-    will have 1-4 adjacent rooms. You do not need to consider a room having more than one doorway
-    (adjacent room) in any given direction.
+    - A room is where everything happens. 
+    - Contains players, things and doors to other rooms. 
+    - Any player (AI or human) can take things from a room and leave things in a room. 
+    - Doorways between rooms can be simple doors, be locked or one-way (you can go from room A to B, but not from B to A). 
+    - A basic room has 1-4 adjacent rooms.
+    
   Player: 
-    Each players should have a specic role in the game. There will be several players in the
-    game including a human players and at least N more players. Each team member will contribute
-    a specic computer controlled player that have different behaviours.
-    For the human player, we will North, South, East, and West to denote directions. N, S, E and
-    W will be sufficient.
+    - Each players should has a specific role in the game. 
+    - There are several players in the game including a human players and at least 3 AI, with different behaviours.
+    - For the human player, North, South, East, and West are used to denote directions.
+    
   Thing: 
-    There will be several things in the game. Examples might food, treasure, radioactive
-    material, keys, locked boxes, etc. There needs to be at least N different things that have different
-    behaviour.
+    - There are several things in the game. Examples are coffee, posion, homework, material, keys, locked boxes, etc. 
+    - Each have a different behaviour upon interaction.
     
 3. FILE FORMAT
   The file format for the world will be as follows:
