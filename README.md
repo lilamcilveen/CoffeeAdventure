@@ -8,7 +8,7 @@
   Grade recieved: 103% 
   
     + Bonus: added functionality of save-game.
-    + Bonus for you: Aesthetic ascii fireworks at the end
+    + Bonus for you: Aesthetic ascii fireworks upon completion. <3
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
   
