@@ -67,7 +67,7 @@
       - ...
       
   For example, if there are 4 rooms in the world (2x2 grid) then the file might look like (# denotes
-  a comment and will not be part of the actual file; I have included it for clarity of the file)
+  a comment and will not be part of the actual file; Professor Hinek has included it for clarity of the project)
   
         4                           # 4 rooms in total
         1                           # room 1
@@ -91,17 +91,17 @@
         0, 0, 1, 0, 1               # there is one thing2 and thing4 in the room
         
         
-  For the players and things, I assume you have 4 different player classes and call them for
+  ""For the players and things, I assume you have 4 different player classes and call them for
   simplicity player0, player1, player2, player3 in the comments above. In your program, you will use
   your own classes. Same for the things. Here, thing2 is Rodney is found in room 4 of the game.
-  You can store the game using a 2d array or using a linked structure. Any le that we give you
-  will be given as above and you can assume that the world looks like a rectangle. The rst room
+  You can store the game using a 2d array or using a linked structure. Any tile that we give you
+  will be given as above and you can assume that the world looks like a rectangle. The first room
   (#1) is the top-left room. The rooms are then given (in order of room number) and will be given
-  as the rows. For example, the world of the le above corresponds to a world that looks like
+  as the rows. For example, the world above corresponds to a world that looks like
   1 2
   3 4
   You will need to determine the shape (number of rows and columns) based on which rooms
-  room # 1 is adjacent to.
+  room # 1 is adjacent to.""
   
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
