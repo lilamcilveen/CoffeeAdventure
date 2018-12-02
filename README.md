@@ -1,5 +1,6 @@
 # adventure-Coffee
 
+A project for Introduction to Computer Science II. - Fall 2017 [1406] 
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
   Cooperation of: Iqra McIlveen, Pryata Humayun, Tatiana Martinez
