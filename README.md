@@ -4,9 +4,11 @@
   Cooperation of: Iqra McIlveen, Pryata Humayun, Tatiana Martinez
   -----------------------------
   A project for Introduction to Computer Science II. - Fall 2017 [1406] 
+  
   Grade recieved: 103% 
     + Bonus: added functionality of save-game.
   
+  + Bonus for you: Aesthetic ascii fireworks at the end
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
   
