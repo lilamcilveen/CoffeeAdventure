@@ -91,7 +91,7 @@
         0, 0, 1, 0, 1               # there is one thing2 and thing4 in the room
         
         
-  ""For the players and things, I assume you have 4 different player classes and call them for
+  "For the players and things, I assume you have 4 different player classes and call them for
   simplicity player0, player1, player2, player3 in the comments above. In your program, you will use
   your own classes. Same for the things. Here, thing2 is Rodney is found in room 4 of the game.
   You can store the game using a 2d array or using a linked structure. Any tile that we give you
@@ -101,7 +101,7 @@
   1 2
   3 4
   You will need to determine the shape (number of rows and columns) based on which rooms
-  room # 1 is adjacent to.""
+  room # 1 is adjacent to."
   
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
