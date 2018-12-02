@@ -21,9 +21,10 @@ COMP1406 Assignment #4/5 Specifications
   have a list of contents (things), players, and exits (doors to other rooms).
 
 2. DETAILS
-  Your game must has the following classes: World, Room, Player and Thing.
+  Your game has the following classes forming the skeleton: World, Room, Player and Thing.
   
   World: 
+  
     - The world class reads the game world from a file. 
     - It keeps track of the entrance to the world so that the human player can enter it.
     - It can save a game in progress. That is, save the state of the game so that it can be loaded later
@@ -31,6 +32,7 @@ COMP1406 Assignment #4/5 Specifications
     - Holds the collection of rooms using a linked-list structure.
     
   Room: 
+  
     - A room is where everything happens. 
     - Contains players, things and doors to other rooms. 
     - Any player (AI or human) can take things from a room and leave things in a room. 
@@ -38,11 +40,13 @@ COMP1406 Assignment #4/5 Specifications
     - A basic room has 1-4 adjacent rooms.
     
   Player: 
+  
     - Each player has a specific role in the game. 
     - There are several players in the game including a human players and at least 3 AI, with different behaviours.
     - For the human player, North, South, East, and West are used to denote directions.
     
   Thing: 
+  
     - There are several things in the game. Examples are coffee, posion, homework, energy drink, etc. 
     - Each has a different behaviour upon interaction.
     
