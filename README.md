@@ -11,13 +11,12 @@
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
   
-COMP1406 Assignment #4/5 Specifications
 1. THE GAME
-- A (human) player will enters the game world (already containing other players and things). 
-- The goal of the game is for the (human) player to retrieve something from the game world and exit with it (be it another    
+- A (human) Player enters the game World (already containing other Players and Things). 
+- The goal of the game is for the Player to retrieve something from the game world and exit with it (be it another    
   Player or Thing).
-- The game world is read from a file that specifies each room in the world. 
-- Each room lists contents such as Things, Players, and exits (doors to other rooms).
+- The game World is read from a file that specifies each Room in the World. 
+- Each Room lists contents such as Things, Players, and exits (doors to other rooms).
 
 2. DETAILS
 - The game has the following classes forming the base of it: World, Room, Player and Thing.
@@ -46,11 +45,11 @@ COMP1406 Assignment #4/5 Specifications
     
   Thing: 
   
-    - There are several things in the game. Examples are coffee, posion, homework, energy drink, etc. 
+    - There are several Things in the game. Examples are Coffee, Poison, EnergyDrink, etc. 
     - Each has a different behaviour upon interaction.
     
 3. FILE FORMAT
-  The file format for the world will be as follows:
+  The file format for the world is as follows:
   
       - total number of rooms
       - room number
