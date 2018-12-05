@@ -1,7 +1,7 @@
-# The Adventures of Coffee
+### The Adventures of Coffee
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
-  Cooperation of: Iqra McIlveen, Pryata Humayun, Tatiana Martinez
+  #####Cooperation of: Iqra McIlveen, Pryata Humayun, Tatiana Martinez
   -----------------------------
   A project for Introduction to Computer Science II. - Fall 2017 [1406] 
   
