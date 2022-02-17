@@ -1,58 +1,48 @@
-## The Adventures of Coffee
-  -------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------
-  Cooperation of: Iqra McIlveen, Pryata Humayun, Tatiana Martinez
-  -----------------------------
+# The Adventures of Coffee
+-------------------------------------------------------------------------------------------------
+Cooperation of: Iqra McIlveen, Aaron York-Lyon, Pryata Humayun, Tatiana Martinez
+-----------------------------
   A first year project for an introductory course in computer science at Carleton University.
   
-  Grade recieved: 103% 
-  
-    + Bonus mark: added functionality of save-game.
-    + Bonus for you: Aesthetic ascii fireworks upon completion. <3
+###### Grade recieved: 103% 
+###### + Bonus mark:&nbsp; added save-game functionality.
+###### + Bonus upon completion:&nbsp; aesthetic ascii fireworks
   -------------------------------------------------------------------------------------------------
   -------------------------------------------------------------------------------------------------
   
-1. THE GAME
-- A (human) Player enters the game World (already containing other Players and Things). 
-- The goal of the game is for the Player to retrieve something from the game world and exit with it (be it another    
-  Player or Thing).
-- The game World is read from a file that specifies each Room in the World. 
+## The Game
+- A (human) `Player` enters the game `World` (already containing other Players and Things). 
+- The goal of the game is for the Player to retrieve something from the game World and exit with it (be it another `Player` or `Thing`).
+- The game world is read from a file that specifies each `Room` in the World. 
 - Each Room lists contents such as Things, Players, and exits (doors to other rooms).
 
-2. DETAILS
-- The game has the following classes forming the base of it: World, Room, Player and Thing.
+## Details
+The game has the following classes forming the base of it: `World`, `Room`, `Player` and `Thing`.
   
-  World: 
-  
-    - The World class reads the game World from a file. 
-    - It keeps track of the entrance to the World so that the human Player can enter it.
-    - It can save a game in progress. That is, save the state of the game so that it can be loaded later
-      and continued (from the same point in the game). 
-    - Holds the collection of Rooms using a linked-list structure.
+#### World: 
+- The `World` class reads the game world from a file. 
+- It keeps track of the entrance to the World so that the human Player can enter it.
+- It can save a game in progress. That is, save the state of the game so that it can be loaded later and continued (from the same point in the game). 
+- Holds the collection of Rooms using a linked-list structure.
     
-  Room: 
-  
-    - A Room is where everything happens. 
-    - Contains Players, Things and doors to other Rooms. 
-    - Any Player (AI or human) can take things from a Room and leave things in a Room. 
-    - Doorways between Rooms can be simple doors, be locked or one-way (you can go from room A to B, but not from B to A). 
-    - A basic Room has 1-4 adjacent Rooms.
+#### Room: 
+- A `Room` is where everything happens. 
+- Contains Players, Things and doors to other Rooms. 
+- Any Player (AI or human) can take things from a Room and leave things in a Room. 
+- Doorways between Rooms can be simple doors, be locked or one-way (you can go from room A to B, but not from B to A). 
+- A basic Room has 1-4 adjacent Rooms.
     
-  Player: 
-  
-    - Each Player has a specific role in the game. 
-    - There are several Players in the game: 
-      - Including a human Player; 
-      - and at least 3 AI, with different behaviours.
-    - For the human Player, North, South, East, and West are used to denote directions.
+#### Player: 
+- Each `Player` has a specific role in the game. 
+- There are several Players in the game:&nbsp;&nbsp; a human Player;&nbsp; and at least 3 AI, with different behaviours.
+- For the human Player, North, South, East, and West are used to denote directions.
     
-  Thing: 
-  
-    - There are several Things in the game. Examples are Coffee, Poison, EnergyDrink, etc. 
-    - Each has a different behaviour upon interaction.
+#### Thing: 
+- There are several classes and instances of `Thing` in the game. Examples are `Coffee`, `Poison`, `EnergyDrink`, etc. 
+- Each has a different behaviour upon interaction.
     
-3. FILE FORMAT
-  The file format for the world is as follows:
+### File Format
+The file format for the world is as follows:
   
       - total number of rooms
       - room number
@@ -66,8 +56,7 @@
       - players in room (comma separated)
       - ...
       
-  For example, if there are 4 rooms in the world (2x2 grid) then the file might look like this. 
-  Professor Hinek has included this example for clarity of our project. Our file is 'input.txt'.
+######  For example, if there are 4 rooms in the world (2x2 grid) then the file might look like this. Professor Hinek included this example for clarity of the project. Our file is `input.txt`.
   
         4                           # 4 rooms in total
         1                           # room 1
@@ -89,30 +78,17 @@
         2, 3                        # you can go to room 2 and 3 from room 4
         1, 0, 0, 0                  # there is one player1 in the room
         0, 0, 1, 0, 1               # there is one thing2 and thing4 in the room
-        
-        
-  "For the players and things, I assume you have 4 different player classes and call them for
-  simplicity player0, player1, player2, player3 in the comments above. In your program, you will use
-  your own classes. Same for the things. Here, thing2 is Rodney is found in room 4 of the game.
-  You can store the game using a 2d array or using a linked structure. Any tile that we give you
-  will be given as above and you can assume that the world looks like a rectangle. The first room
-  (#1) is the top-left room. The rooms are then given (in order of room number) and will be given
-  as the rows. For example, the world above corresponds to a world that looks like
-  1 2
-  3 4
-  You will need to determine the shape (number of rows and columns) based on which rooms
-  room # 1 is adjacent to."
-  
-  -------------------------------------------------------------------------------------------------
-  -------------------------------------------------------------------------------------------------
-  
-Assignment 4/5 -- Project Rubric
-================================
+         
+###### Resulting in this room layout:
 
-This rubric assumes that you have 4 team members. Things ending with a number correspond to work done by team a team member (which we arbitrarily numbeer 1-4). Anything ending with 0 is a team effort.
+      | 1 | 2 |
+      | 3 | 4 |
 
-Assignment 4/5 [40 marks]
--------------------------
+> ###### "You can store the game using a 2d array or using a linked structure. [...] you can assume that the world looks like a rectangle. The first room (#1) is the top-left room. The rooms are then given (in order of room number) and will be given as the rows. You will need to determine the shape (number of rows and columns) based on which rooms room # 1 is adjacent to." ― Professor Hinek
+  
+### Project Rubric
+
+Things ending with a number correspond to work done by team a team member (which we arbitrarily number 1-4). Anything ending with 0 is a team effort.
 
     All games must accept the input "h" to ask for help. This should let the user know which commands that they can enter to 
     play the game.
